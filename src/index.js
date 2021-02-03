@@ -1,9 +1,24 @@
-const message = document.createElement('div');
-const div = document.querySelector('div#content');
-div.appendChild(message);
-message.textContent = "Welcome";
+import home from "./home";
+import menu from "./menu";
+import contact from "./contact";
+import clear from "./clear";
 
-const img = document.createElement('img');
-img.src = '/img/cafe.jpg';
-div.appendChild(img);
+home();
 
+let homeBtn = document.getElementById("home");
+homeBtn.onclick = () => {
+  clear();
+  home();
+};
+
+let menuBtn = document.getElementById("menu");
+menuBtn.onclick = () => {
+  clear();
+  menu();
+};
+
+let contactBtn = document.getElementById("contact");
+contactBtn.onclick = () => {
+  clear();
+  contact();
+};

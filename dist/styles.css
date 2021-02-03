@@ -1,0 +1,15 @@
+/* .home {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://www.messynessychic.com/wp-content/uploads/2015/04/food.jpg');
+    height:93vh;
+    background-position: center 20%;
+  }
+
+  .menu {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://static.messynessychic.com/wp-content/uploads/2015/04/fancyjunk6.jpg');
+    height: 25vh;
+    background-position: center;
+  } */
+
+  h1 {
+      font-size: 10em;
+  }
